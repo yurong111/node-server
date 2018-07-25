@@ -4,11 +4,12 @@ const cookie=require('cookie-parser');
 const app = express()
 
 /**
- * 跨域处理方式
- * 1. webpack-dev-server                浏览器携带cookie，不需要配置credentials
- * 2. http-proxy-middleware + express   浏览器携带cookie，不需要配置credentials
- * 3. nginx                             浏览器携带cookie，不需要配置credentials
- * 4. 后台cors                           浏览器携带cookie，需要配置credentials
+ * 接口跨域处理方式
+ * 1. webpack-dev-server
+ * 2. http-proxy-middleware + express
+ * 3. nginx
+ * 4. 后台cors
+ * 5. jsonp
  */
 
 // 后台处理跨域

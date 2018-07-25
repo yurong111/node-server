@@ -5,11 +5,11 @@ const app = express()
 
 /**
  * 接口跨域处理方式
- * 1. webpack-dev-server
- * 2. http-proxy-middleware + express
- * 3. nginx
- * 4. 后台cors
- * 5. jsonp
+ * 1. webpack-dev-server    前端处理
+ * 2. http-proxy-middleware + express   前端处理
+ * 3. nginx   中间层处理
+ * 4. 后台cors    后台处理
+ * 5. jsonp   前后台处理
  */
 
 // 后台处理跨域
